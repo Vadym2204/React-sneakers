@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.headerLeft {
+    display: flex;
+}
+.headerContent {
+    margin-left: 15px;
+}
+.headerTitle {
+    font-weight: 700;
+}
+.headerText {
+    opacity: 0.5;
+}
+.headerRight {
+    display: flex;
+    li {
+        color: #5C5C5C;
+        margin-right: 20px;
+        opacity: 0.8;
+        cursor: pointer;
+        img {
+            margin-right: 10px;
+        }
+        span {
+            color: #5C5C5C
+        }
+    }
+}

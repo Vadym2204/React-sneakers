@@ -1,0 +1,21 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+    height: 55px;
+    background-color: #9DD458;
+    color: #fff;
+    padding: 18px 30px;
+    cursor: pointer;
+    img {
+        margin-left: 10px;
+    }
+}
+
+.divButton {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}

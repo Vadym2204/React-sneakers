@@ -1,0 +1,98 @@
+{
+  "uuid": "e7e3d5a9-f243-4074-90e7-dce879ae30a4",
+  "lastMigration": 32,
+  "name": "Data",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [
+    {
+      "uuid": "faf71394-7a2c-4f37-87e4-3d5ce43647ec",
+      "name": "New folder",
+      "children": []
+    }
+  ],
+  "routes": [
+    {
+      "uuid": "b1c38b64-a68e-43e2-a385-cbbc8382afbc",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "",
+      "responses": [
+        {
+          "uuid": "a4dc2243-8fca-4624-93f8-71adf758cba9",
+          "body": "[\n {\n    \"id\": \"1\",\n    \"title\": \"Мужские Кроссовки Nike Blazer Mid Suede\",\n    \"price\": 12999,\n    \"imgUrl\": \"/src/assets/sneakers/1.jpg\"\n  },\n  {\n    \"id\": \"2\",\n    \"title\": \"Мужские Кроссовки Nike Air Max 270\",\n    \"price\": 12999,\n    \"imgUrl\": \"/src/assets/sneakers/2.jpg\"\n  },\n  {\n    \"id\": \"3\",\n    \"title\": \"Мужские Кроссовки Nike Blazer Mid Suede\",\n    \"price\": 8499,\n    \"imgUrl\": \"/src/assets/sneakers/3.jpg\"\n  },\n  {\n    \"id\": \"4\",\n    \"title\": \"Кроссовки Puma X Aka Boku Future Rider\",\n    \"price\": 8999,\n    \"imgUrl\": \"/src/assets/sneakers/4.jpg\"\n  },\n  {\n    \"id\": \"5\",\n    \"title\": \"Мужские Кроссовки Under Armour Curry 8\",\n    \"price\": 15199,\n    \"imgUrl\": \"/src/assets/sneakers/5.jpg\"\n  },\n  {\n    \"id\": \"6\",\n    \"title\": \"Мужские Кроссовки Nike Kyrie 7\",\n    \"price\": 11299,\n    \"imgUrl\": \"/src/assets/sneakers/6.jpg\"\n  },\n  {\n    \"id\": \"7\",\n    \"title\": \"Мужские Кроссовки Jordan Air Jordan 11\",\n    \"price\": 10799,\n    \"imgUrl\": \"/src/assets/sneakers/7.jpg\"\n  },\n  {\n    \"id\": \"8\",\n    \"title\": \"Мужские Кроссовки Nike LeBron XVIII\",\n    \"price\": 16499,\n    \"imgUrl\": \"/src/assets/sneakers/8.jpg\"\n  },\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "b1c38b64-a68e-43e2-a385-cbbc8382afbc"
+    },
+    {
+      "type": "folder",
+      "uuid": "faf71394-7a2c-4f37-87e4-3d5ce43647ec"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "e5ef7355-fb9a-42b7-a9a4-42bf1df7f2ee",
+      "id": "zpj8",
+      "name": "New data",
+      "documentation": "",
+      "value": ""
+    }
+  ],
+  "callbacks": []
+}
